@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(249, 250, 250);
+}
+.logo{
+    background-image: url(amazon.png);
+    width: 200px;
+    height:60px;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    left:42%;
+}
+.form-box{
+    background-color: white;
+    width: 90%;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 50px 50px;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+form h1{
+    font-weight: 600;
+}
+.input-field{
+    margin-top: 30px;
+}
+.input-field input{
+    margin-top: 15px;
+    width: 70%;
+    padding: 7px;
+    margin-left: 10px;
+}
+form .continue{
+    text-decoration: none;
+    margin-top: 20px;
+    width: 70%;
+    background-color: rgb(250, 200, 20);
+    box-shadow: 1px 1px 2px black;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+form p span, .form-box p span{
+    color: rgb(3, 115, 190);
+}
+form p span:hover{
+    text-decoration: orange underline;
+    color: orangered;
+}
+.form-box p span:hover{
+    text-decoration: orange underline;
+    color: orangered;
+}
+.create-new{
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    
+}
+.create-new a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
